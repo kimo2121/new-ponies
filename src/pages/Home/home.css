@@ -9,14 +9,9 @@
   font-size: 70px;
   font-family: Arvo;
   font-weight: bold;
-  text-shadow: -3px -3px 0 #222, 3px -3px 0 #222, -3px 3px 0 #222,
+  /* text-shadow: -3px -3px 0 #222, 3px -3px 0 #222, -3px 3px 0 #222,
     3px 3px 0 #222, 4px 4px 0 #fff, 5px 5px 0 #fff, 6px 6px 0 #fff,
-    7px 7px 0 #fff;
-  line-height: 0.8em;
-  letter-spacing: 0.1em;
-  transform: scaleY(0.7);
-  -webkit-transform: scaleY(0.7);
-  -moz-transform: scaleY(0.7);
+    7px 7px 0 #fff; */
   margin: 3vh 0 5vh 0;
   text-align: center;
 }
