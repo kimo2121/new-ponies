@@ -4,7 +4,7 @@ import Timer from "../../components/Timer/Timer";
 
 import RoadMap from "../../components/RoadMap/RoadMap";
 import OurTeam from "../../components/OurTeam/OurTeam";
-import CustomizedAccordions from "../../components/FAQ/FAQ";
+// import CustomizedAccordions from "../../components/FAQ/FAQ";
 import banner from "../../assets/images/banner.png";
 
 import AOS from "aos";
@@ -67,12 +67,12 @@ const Home: React.FC = () => {
       </div>
       {/* <About /> */}
       <Timer mintStartAt={1632466800} />
-      <div className="faq-section">
+      {/* <div className="faq-section">
         <Header header="FAQs" />
         <div className="question-container">
           <CustomizedAccordions />
         </div>
-      </div>
+      </div> */}
       <RoadMap />
       <Perks />
       <OurTeam />
