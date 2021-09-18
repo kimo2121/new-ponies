@@ -1,0 +1,36 @@
+.perks {
+  background-color: transparent;
+  padding: 5vh;
+  background-image: linear-gradient(180deg, #f1a5e1 0%, #8febd4 100%);
+}
+.perks h1 {
+  margin: 0;
+  font-size: 60px;
+  text-shadow: 10px 0px 10px rgb(0 0 0 / 85%);
+  font-weight: 500;
+  color: white;
+  margin-bottom: 5vh;
+}
+.inner-perks {
+  width: 1060px;
+  margin: 0 auto;
+}
+.perk-ranks {
+  margin: 4vh 2vw;
+  color: rgb(59, 59, 129);
+}
+.inner-perks h3 {
+  font-weight: 900;
+  font-size: 20px;
+  color: rgb(59, 59, 129);
+}
+@media screen and (max-width: 1200px) {
+  .inner-perks {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 568px) {
+  .perks h1 {
+    font-size: 24px;
+  }
+}
