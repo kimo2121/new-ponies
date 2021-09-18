@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./home.css";
-import Timer from "../../components/Timer/Timer";
+// import Timer from "../../components/Timer/Timer";
 
 import RoadMap from "../../components/RoadMap/RoadMap";
 import OurTeam from "../../components/OurTeam/OurTeam";
@@ -66,7 +66,7 @@ const Home: React.FC = () => {
         </p>
       </div>
       {/* <About /> */}
-      <Timer mintStartAt={1632466800} />
+      {/* <Timer mintStartAt={1632466800} /> */}
       <div className="faq-section">
         <Header header="FAQs" />
         <div className="question-container">
