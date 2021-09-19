@@ -21,7 +21,7 @@ const Home: React.FC = () => {
     <div className="home">
       <div className="banner">
         <h1 data-aos="slide-right" data-aos-duration="500">
-          Welcome to Trick Poniez
+          The Poniez Union
         </h1>
         <img src={banner} alt="" />
         <p data-aos="zoom-in" data-aos-duration="500">
