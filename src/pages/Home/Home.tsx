@@ -37,7 +37,8 @@ const Home: React.FC = () => {
           and a nice reminder of the past when MS Paint was the app of choice,
           and ponies, well what’s not to like about ponies? So we sat down and
           started thinking, talking, imbibing, and having fun. What happened
-          after, is now history. The Poniez were born. The Poniez were born!
+          after, is now history. The Poniez were born. There were exactly 8228
+          of them born to be precise!
         </p>
         <h3 data-aos="zoom-in" data-aos-duration="500">
           The Poniez are all about being inclusive, which is what the world
