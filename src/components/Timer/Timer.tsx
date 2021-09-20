@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import "./timer.css";
 import { ReactComponent as TimerDivider } from "../../assets/icons/top.svg";
+import Mint from "../Mint/Mint";
 
 const RowContainer = styled.div`
   color: hsl(0, 0%, 100%);
@@ -50,8 +51,6 @@ const Card = styled.div`
   align-self: baseline;
   display: flex;
   flex-direction: column;
-  background-color: transparent;
-  background-image: linear-gradient(180deg, #7d71e9 0%, #f2a8b7 100%);
   justify-content: space-around;
   position: relative;
   text-align: center;
@@ -85,40 +84,43 @@ const Timer = ({ mintStartAt }: any) => {
   }, [mintStartAt]);
 
   return timerVisible ? (
-    <Card>
-      <TimerDivider style={{ height: "30px", fill: "white" }} />
-      {/* <Heading>{"Trick Ponies Counter"}</Heading> */}
-      {/* <Title>
+    <div className="timer-mint-container">
+      <Card>
+        <TimerDivider style={{ height: "30px", fill: "white" }} />
+        {/* <Heading>{"Trick Ponies Counter"}</Heading> */}
+        {/* <Title>
         Boost sales use our most amazing widget. Display with colorful thin line
         style.
       </Title> */}
-      <RowContainer className="timer-container">
-        <Item className="days-cirlce">
-          <ItemValue id="days">
-            {days.toLocaleString("en-US", { minimumIntegerDigits: 2 })}
-          </ItemValue>
-          <ItemLabel>DAYS</ItemLabel>
-        </Item>
-        <Item className="hours-cirlce">
-          <ItemValue id="days">
-            {hours.toLocaleString("en-US", { minimumIntegerDigits: 2 })}
-          </ItemValue>
-          <ItemLabel>HOURS</ItemLabel>
-        </Item>
-        <Item className="minutes-cirlce">
-          <ItemValue id="days">
-            {minutes.toLocaleString("en-US", { minimumIntegerDigits: 2 })}
-          </ItemValue>
-          <ItemLabel>MINUTES</ItemLabel>
-        </Item>
-        <Item className="seconds-cirlce">
-          <ItemValue id="days">
-            {seconds.toLocaleString("en-US", { minimumIntegerDigits: 2 })}
-          </ItemValue>
-          <ItemLabel>SECONDS</ItemLabel>
-        </Item>
-      </RowContainer>
-    </Card>
+        <RowContainer className="timer-container">
+          <Item className="days-cirlce">
+            <ItemValue id="days">
+              {days.toLocaleString("en-US", { minimumIntegerDigits: 2 })}
+            </ItemValue>
+            <ItemLabel>DAYS</ItemLabel>
+          </Item>
+          <Item className="hours-cirlce">
+            <ItemValue id="days">
+              {hours.toLocaleString("en-US", { minimumIntegerDigits: 2 })}
+            </ItemValue>
+            <ItemLabel>HOURS</ItemLabel>
+          </Item>
+          <Item className="minutes-cirlce">
+            <ItemValue id="days">
+              {minutes.toLocaleString("en-US", { minimumIntegerDigits: 2 })}
+            </ItemValue>
+            <ItemLabel>MINUTES</ItemLabel>
+          </Item>
+          <Item className="seconds-cirlce">
+            <ItemValue id="days">
+              {seconds.toLocaleString("en-US", { minimumIntegerDigits: 2 })}
+            </ItemValue>
+            <ItemLabel>SECONDS</ItemLabel>
+          </Item>
+        </RowContainer>
+      </Card>
+      <Mint />
+    </div>
   ) : (
     <></>
   );
