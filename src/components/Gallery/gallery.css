@@ -1,0 +1,35 @@
+.gallery h1 {
+  padding-bottom: 2vh;
+  font-family: "RocknRoll One", sans-serif;
+  margin-top: 0;
+}
+.gallery {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #f2a8b7 0%, #f2a8b7 100%);
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.navbar-logo {
+  font-family: "Open Sans";
+  font-size: 24px;
+  color: #fff;
+  background-color: #0a4f56;
+}
+.styles_wrapper__1kG3C {
+  background-color: transparent !important;
+  background-image: linear-gradient(180deg, #f2a8b7 7%, #b0f7b1 38%) !important;
+  min-height: unset !important;
+  padding: 5vh 0 !important;
+}
+.styles_gridItem__nPXhF figcaption {
+  border: unset !important;
+  display: none !important;
+}
+.styles_wrapper__1kG3C img {
+  outline: none !important;
+  margin: 0 auto;
+  opacity: 1 !important;
+  background-color: transparent;
+  max-width: unset !important;
+  max-height: unset !important;
+}

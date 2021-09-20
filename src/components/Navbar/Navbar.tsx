@@ -6,7 +6,6 @@ import Button from "../Button/Button";
 import { HiMenu } from "react-icons/hi";
 const Navbar: React.FC = () => {
   const [menu, setMenu] = useState(false);
-
   const [setActive, setActiveState] = useState("");
   const [setHeight, setHeightState] = useState("0px");
 
@@ -37,7 +36,7 @@ const Navbar: React.FC = () => {
             </Link>
           </div>
           <div className="external-links">
-            <a className="twitter" href="/">
+            <a className="twitter" href="https://twitter.com/poniezunion">
               <FaTwitter />
             </a>
           </div>

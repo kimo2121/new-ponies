@@ -1,0 +1,24 @@
+.disclaimer {
+  font-family: "RocknRoll One", sans-serif;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #fff577 0%, #8fe5eb 100%);
+}
+.inner-discalimer {
+  width: 1120px;
+  text-align: left;
+  padding: 19px;
+  margin: 0 auto;
+  margin-top: 5vh;
+  color: black;
+  font-size: 21px;
+}
+.disclaimer h1 {
+  margin-top: 0;
+  padding-bottom: 2vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .inner-discalimer {
+    width: 90%;
+  }
+}

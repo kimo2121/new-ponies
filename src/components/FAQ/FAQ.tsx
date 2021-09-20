@@ -97,7 +97,8 @@ const CustomizedAccordions: React.FC = () => {
               fun things to come. Also The Poniez have fun eyes and if you catch
               them just right its like they are getting dolled up, ready to kick
               Covid to the curb and go out for a night of fun and dancing, or
-              just Netflix and Chill.
+              just Netflix and Chill. <br /> There are 8228 Poniez looking for a
+              good home in season 1.
             </Typography>
           </AccordionDetails>
         </Accordion>
